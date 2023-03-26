@@ -3,10 +3,10 @@
     <!-- Sidebar - Brand -->
     <a class="sidebar-brand d-flex align-items-center justify-content-center" href="esign.php">
         <div class="sidebar-brand-icon">
-            <img class="d-inline-block align-center" src="<?= base_url('assets/'); ?>img/bmkg-logo.png" alt="logo bmkg" width="66" height="66">
+            <img class="d-inline-block align-center" src="<?= base_url('assets/'); ?>img/bmkg-logo.png" width="66" height="66">
         </div>
 
-        <h1 class="h1 mt-2 font-weight-bold text-light text-center small text-uppercase "> Menu Manajemen</h1>
+        <h1 class="h1 mt-2 font-weight-bold text-light text-center small text-uppercase ">E-SIGN</h1>
     </a>
 
     <!-- Divider -->
@@ -25,14 +25,18 @@
 
     <!-- Nav Item - Pages Collapse Menu -->
     <li class="nav-item">
-
-
+        <a class="nav-link" href="<?= base_url('balai/kabal'); ?>">
+            <span>KABAL</span>
+        </a>
+    </li>
     <li class="nav-item">
-        <a class="nav-link collapsed" href="esign.php" data-toggle="modal" data-target="#logoutModal">
-            <span>Logout</span>
+        <a class="nav-link" href="<?= base_url('balai/sekbal'); ?>">
+            <span>SEKBAL</span>
         </a>
     </li>
 
+
+    <!-- Divider -->
     <hr class="sidebar-divider">
 
     <!-- Heading -->

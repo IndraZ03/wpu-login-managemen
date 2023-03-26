@@ -67,7 +67,7 @@
     <div class="row ml-5 mr-5 mb-5 mt-5 justify-content-center">
 
         <div class="col-md-4 col-sm-6 text-center">
-            <a href="B.php" class="gbh">
+            <a href="<?= base_url('admin/esign'); ?>" class="gbh">
                 <div class="serviceBox shadow-lg rounded">
 
                     <h3 class="title mt-3 text-uppercase">E-Sign</h3>

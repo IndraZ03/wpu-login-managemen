@@ -20,6 +20,42 @@ class Balai extends CI_Controller
         $this->load->view('templates/footer');
     }
 
+    public function esign()
+    {
+        $data['title'] = 'E-Sign';
+        $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
+
+        $this->load->view('templates/header', $data);
+        $this->load->view('templates/sidebar-balai', $data);
+        $this->load->view('templates/topbar-balai', $data);
+        $this->load->view('balai/esign', $data);
+        $this->load->view('templates/footer');
+    }
+
+    public function kabal()
+    {
+        $data['title'] = 'E-Sign';
+        $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
+
+        $this->load->view('templates/header', $data);
+        $this->load->view('templates/sidebar-balai', $data);
+        $this->load->view('templates/topbar-balai', $data);
+        $this->load->view('balai/kabal', $data);
+        $this->load->view('templates/footer');
+    }
+
+    public function sekbal()
+    {
+        $data['title'] = 'E-Sign';
+        $data['user'] = $this->db->get_where('user', ['email' => $this->session->userdata('email')])->row_array();
+
+        $this->load->view('templates/header', $data);
+        $this->load->view('templates/sidebar-balai', $data);
+        $this->load->view('templates/topbar-balai', $data);
+        $this->load->view('balai/sekbal', $data);
+        $this->load->view('templates/footer');
+    }
+
     public function profile()
     {
         $data['title'] = 'My Profile';
