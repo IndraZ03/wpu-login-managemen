@@ -75,10 +75,10 @@ $query_builder = true;
 
 $db['default'] = array(
     'dsn'    => '',
-    'hostname' => 'localhost:3307',
-    'username' => 'root',
-    'password' => '',
-    'database' => 'wpu-login-salinan',
+    'hostname' => '104.154.91.69',
+    'username' => 'user',
+    'password' => 'user',
+    'database' => 'wpu-login',
     'dbdriver' => 'mysqli',
     'dbprefix' => '',
     'pconnect' => false,
