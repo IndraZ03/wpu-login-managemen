@@ -86,7 +86,7 @@
 
         </div>
         <div class="col-md-4 col-sm-6 text-center">
-            <a href="B.php" class="gbh">
+            <a href="<?= base_url('admin/menu'); ?>" class="gbh">
                 <div class="serviceBox shadow-lg rounded">
 
                     <h3 class="title mt-3 text-uppercase">Menu Manajemen</h3>
